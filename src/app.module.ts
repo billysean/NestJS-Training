@@ -10,7 +10,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       host: 'localhost',
       port: 5455,
       username: 'postgres',
-      password: 'postgres',
+      password: 'postgresql',
       database: 'task-management',
       autoLoadEntities: true, // NestJs entities needs to be defined. autoload will find the entity files automatically
       synchronize: true,
